@@ -1,0 +1,58 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  height: 48px;
+  width: 48px;
+}
+.bg_img {
+  background-image: url('../images/bg_img.svg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.bg-light {
+  background-color: #F3F8FB !important;
+}
+.btn-success {
+  background-color: #20BEAD !important;
+  border-color: #20BEAD !important;
+}
+.border-bottom {
+  border-radius: 0px !important;
+  border-bottom: 1px solid #ECECEC !important;
+}
+.bottom-content {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #F7FAFB !important;
+  width: 100%;
+}
+.f-13 {
+  font-size: 13px !important;
+}
+.h-100 {
+  height: 99.9vh !important;
+}
+.h-full {
+  height: 100% !important;
+}
+.overlay {
+  position: 'absolute';
+  background-color: '#000';
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+  height: '100vh';
+  opacity: 0.7;
+  width: '100%';
+  z-index: 1;
+}
+  
